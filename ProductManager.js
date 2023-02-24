@@ -46,18 +46,13 @@ class ProductManager {
 
 
 const producto1 = new ProductManager();
-console.log('Muestro Lista Vacía');
 
 console.log(ProductManager.getProducts);
-console.log('Agregamos un producto');
 
 producto1.addProduct({ codigo: 'A1', titulo: 'Porducto 1', descripcion: 'primer producto', precio: 100, thumbnail: 'imagen1', stock: 2 });
 
-console.log('Muestramos artículo ingresado');
 console.log(ProductManager.getProducts);
 
-producto1.addProduct({ codigo: 'A2', titulo: 'Producto 2', descripcion: 'Segundo producto', precio: 200, thumbnail: 'imagen2', stock: 3 });
-console.log(ProductManager.getProducts);
 
 
 
